@@ -1,10 +1,10 @@
 # TUF Gaming E-commerce Website
 
-# About
+## About
 
-## This is just a practice purpose e-commerce website.
-## This project uses react-router-dom and react-redux.
+### This is just a practice purpose e-commerce website.
+### This project uses react-router-dom and react-redux.
 
-# Usage
+## Usage
 
-## You can add products your basket and then see how much they cost.
+### You can add products your basket and then see how much they cost.
