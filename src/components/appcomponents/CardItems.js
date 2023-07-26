@@ -22,7 +22,7 @@ export default function CardItems() {
 
     return (
         <div className="shop-card-items">
-            <ul className="flex flex-col gap-4 mb-4">
+            <ul className="grid grid-cols-1  md:grid-cols-2 md:gap-8 xl:grid-cols-3 xl:gap-12 gap-4 mb-4 lg:mb-24">
                 {total === 0 ? (
                     <p className="text-xl font-bold text-center">
                         There is no product in the card.
@@ -44,8 +44,8 @@ export default function CardItems() {
                 })}
             </ul>
             <div className="total-info text-center">
-            <p className="text-gray-600 text-2xl font-bold mb-2">Total Price</p>
-            <p className="text-green-600 text-2xl font-bold">${total_price}</p>
+            <p className="text-gray-600 text-2xl font-bold mb-2  xl:text-3xl">Total Price</p>
+            <p className="text-green-600 text-2xl font-bold  xl:text-3xl" >${total_price}</p>
             </div>
         </div>
     );

@@ -3,12 +3,12 @@ import { useDispatch } from "react-redux";
 export default function ProductCard(props) {
 
     return (
-        <div className="product-card border-2 shadow-md text-xl border-gray-300 py-6 px-4">
-            <img src={props.img_path} className="mb-2" alt={props.title} />
+        <div className="product-card max-w-[18rem] h-[24rem] flex flex-col mx-auto border-2 shadow-md text-xl border-gray-300 py-6 px-4">
+            <img src={props.img_path} className="mb-2 h-[12rem]" alt={props.title} />
 
-            <p className="text-center mb-4">{props.title}</p>
+            <p className="text-center mb-4 font-bold text-gray-800">{props.title}</p>
 
-            <div className="product-bottom flex items-center gap-2 justify-between">
+            <div className="product-bottom mt-auto flex items-center gap-2 justify-between">
                 {props.discount_percentage ? (
                     <div>
                         <p className="text-red-600 line-through font-bold">

@@ -13,13 +13,13 @@ export default function BestSellerProducts() {
     return (
         <div className="best-seller-container">
             <div className="best-seller-top-text mb-12">
-                <h2 className="product-heading text-xl font-bold inline-block">
+                <h2 className="product-heading text-xl md:text-2xl xl:text-3xl font-bold inline-block">
                     Best Sellers
                 </h2>
             </div>
 
             <div className="best-seller-products ">
-                <ul className="flex flex-col gap-4">
+                <ul className="grid grid-cols-1 md:grid-cols-2 md:gap-8 xl:grid-cols-3 xl:gap-12 gap-4">
                     {best_seller_products.map((elem, index) => (
                         <li key={index}>
                             <ProductCard

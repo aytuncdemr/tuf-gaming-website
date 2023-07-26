@@ -5,7 +5,7 @@ import gaming_mouse_img_path from "../assets/images/tuf-gaming-mouse.png";
 import gaming_laptop_img_path from "../assets/images/tuf-gaming-laptop.png";
 import gaming_headphones_img_path from "../assets/images/Gaming Headphones.png";
 import amd_processor_img_path from "../assets/images/AMD Processor.png";
-import intel_processor_img_path from "../assets/images/Intel Processor.png";
+import intel_processor_img_path from "../assets/images/Intel processor.png";
 import cooler_img_path from "../assets/images/Cooler.png";
 import asus_monitor_img_path from "../assets/images/ASUS Monitor.png";
 import gaming_msi_keyboard_img_path from "../assets/images/MSI Keyboard.png";
